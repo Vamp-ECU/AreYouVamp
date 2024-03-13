@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <a href="index.html">
+            <button class="sidebar-button" data-page="home">Home</button>
+        </a>
+        <a href="intro.html">
+            <button class="sidebar-button" data-page="team-introductions">Team Introductions</button>
+        </a>
+        <button class="sidebar-button" data-page="vampire-input-form">Vampire Input Form</button>
+    </div>
+
+    <div id="content">
+        <div id="banner">
+            <h1>Is My Classmate a Vampire?</h1>
+        </div>
+
+        <div id="introduction">
+            <p>Welcome to the Vampire App! This app helps you determine whether your classmate might be a vampire based on various characteristics such as shadows, complexion, garlic consumption, and accent. Simply select the relevant features, click the button, and find out the verdict!</p>
+        </div>
+
+        <div id="image-section">
+            <img src="vampire.jpeg" alt="Vampire Image">
+        </div>
+
+        <div id="main-content">
+            <!-- Content will be dynamically loaded here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
