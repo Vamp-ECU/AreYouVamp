@@ -53,24 +53,22 @@
     margin-top: 20px;
 }
 
-
-
 #content form div {
-    margin-bottom: 15px; /* Adjust spacing as desired */
+    margin-bottom: 15px;
 }
 .comments-container {
-    position: relative; /* Make the container the reference point for positioning */
+    position: relative;
 }
 
 .comments-container label {
     position: absolute;
-    background-color: white; /* Match the background of your form */
-    padding: 0 5px; /* Add padding around the label */
-    z-index: 2; /* Place the label above other elements */
+    background-color: white; /* Match background */
+    padding: 0 5px; /* Add padding */
+    z-index: 2; /* Place label above comment container */
 } 
 
 .comments-container textarea {
-    margin-top: 2em; /* Adjust to accommodate label height + padding*/
+    margin-top: 2em;
 }
 
 
