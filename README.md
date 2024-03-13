@@ -1,6 +1,7 @@
 ## Vampire Detector App
 
 Quickly determine if your classmate might secretly be a creature of the night!
+
 Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
 
 **Quickstart**
