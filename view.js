@@ -23,11 +23,12 @@ class VampireView {
     }
 
     getSelectedValues() {
-        const shadow = this.shadowDropdown.value;
-        const complexion = this.complexionDropdown.value;
-        const garlic = this.garlicDropdown.value;
-        const accent = this.accentDropdown.value;
-        return { shadow, complexion, garlic, accent };
+        return {
+           shadow: this.shadowDropdown.value === 'yes' ? 'yes' : 'no',  // Map dropdown values
+           complexion: this.complexionDropdown.value,
+           garlic: this.garlicDropdown.value,
+           accent: this.accentDropdown.value
+        };
     }
 
     displayResult(result) {

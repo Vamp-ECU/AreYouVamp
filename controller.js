@@ -8,10 +8,10 @@ class VampireController {
     }
 
     handleSubmit() {
-        const { shadow, complexion, garlic, accent } = this.view.getSelectedValues();
-        const result = this.model.isVampire(shadow, complexion, garlic, accent);
+        const formData = this.view.getSelectedValues();
+        const result = this.model.isVampire(formData.shadow, formData.complexion, formData.garlic, formData.accent);
         this.view.displayResult(`Is the classmate a vampire? ${result}`);
-    }
+     }
 
     handleSidebarButtonClick(page) {
         // Handle navigation to different pages
