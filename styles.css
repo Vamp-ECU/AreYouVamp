@@ -44,10 +44,8 @@
 /* Image section styles */
 #image-section {
     margin-top: 20px;
-    position: relative; /* Makes the element positioned relative to its normal position */
-    left: 50%; /* Positions the left edge of the image at 50% of its container */
-    transform: translateX(-50%); /* Adjusts the image position to compensate for its own width */
 }
+
 /* Main content styles */
 #main-content {
     margin-top: 20px;
