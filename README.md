@@ -1,6 +1,6 @@
 ## Vampire Detector App
 
-Quickly determine if your classmate might secretly be a creature of the night!
+Quickly determine if your classmate might secretly be a vampire.
 
 Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
 
@@ -8,7 +8,7 @@ Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
 
 **Prerequisites:**
 
-* Python 3 ([https://www.python.org/downloads/](https://www.python.org/downloads/))
+* Python 3 https://www.python.org/downloads
 
 **Getting Started**
 
@@ -33,7 +33,7 @@ Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
 
 **How to Use:**
 
-1. Fill in the form (shadow preference, complexion, garlic aversion, etc.).
+1. Fill in the form (shadow preference, complexion, garlic aversion).
 2. Click "Submit"
 3. View the results!
 
