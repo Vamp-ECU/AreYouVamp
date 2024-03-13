@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Sidebar styles */
+#sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Content styles */
+#content {
+    margin-left: 220px; /* Adjust based on sidebar width */
+    padding: 20px;
+}
+
+/* Banner styles */
+#banner {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Introduction styles */
+#introduction {
+    margin-top: 20px;
+}
+
+/* Image section styles */
+#image-section {
+    margin-top: 20px;
+}
+
+/* Main content styles */
+#main-content {
+    margin-top: 20px;
+}
+
+
+
+#content form div {
+    margin-bottom: 15px; /* Adjust spacing as desired */
+}
+.comments-container {
+    position: relative; /* Make the container the reference point for positioning */
+}
+
+.comments-container label {
+    position: absolute;
+    background-color: white; /* Match the background of your form */
+    padding: 0 5px; /* Add padding around the label */
+    z-index: 2; /* Place the label above other elements */
+} 
+
+.comments-container textarea {
+    margin-top: 2em; /* Adjust to accommodate label height + padding*/
+}
+
+
