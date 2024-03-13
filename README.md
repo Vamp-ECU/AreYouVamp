@@ -24,7 +24,7 @@ Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
    * Inside your activated environment, run: `pip install flask`
 
 3. **Download Code:**
-    * Get the app files (`app.py`, `model.py`, etc.) from [https://github.com/Vamp-ECU/AreYouVamp]
+    * Get the app files from [https://github.com/Vamp-ECU/AreYouVamp]
 
 4. **Run the App:**
    * In your terminal (with the environment still activated), navigate to your project directory.
