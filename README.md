@@ -29,7 +29,7 @@ Created by Robert Fernald, Mehki Corpening, Kamron Hopkins.
 4. **Run the App:**
    * In your terminal (with the environment still activated), navigate to your project directory.
    * Start the Flask server: `flask run`
-   * Open your web browser and go to: `http://127.0.0.1:5000/`
+   * Open your web browser and go to: `http://127.0.0.1:5000/index`
 
 **How to Use:**
 
