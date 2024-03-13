@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, request
 import os
 print(os.getcwd())
 
@@ -18,7 +18,9 @@ def inputform():
 
 @app.route('/process_form', methods=['POST'])
 def process_form():
-    return "Form submitted!"
+    data = request.get_json()
+    result = model.isVampire(data['shadow'], data['complexion'], data['garlic'], data['accent'])
+    return jsonify(result)  # Return result as JSON
 
 if __name__ == '__main__':
     app.run(debug=True) 

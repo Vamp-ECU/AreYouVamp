@@ -9,9 +9,19 @@ class VampireController {
 
     handleSubmit() {
         const formData = this.view.getSelectedValues();
-        const result = this.model.isVampire(formData.shadow, formData.complexion, formData.garlic, formData.accent);
-        this.view.displayResult(`Is the classmate a vampire? ${result}`);
-     }
+    
+        fetch('/process_form', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }, 
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.text())
+        .then(result => {
+            this.view.displayResult(`Is the classmate a vampire? ${result}`);
+        })
+        .catch(error => console.error('Error submitting form:', error));
+    }
+    
 
     handleSidebarButtonClick(page) {
         // Handle navigation to different pages
